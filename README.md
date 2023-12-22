@@ -6,7 +6,7 @@
 [22,27,16,2,18,6] -> Insertion Sort
 ```
 **Soru 1- Yukarı verilen dizinin Insertion sort türüne göre aşamalarını yazınız.**
-*Yanıt:*
+  *Yanıt:*
 ```Adım 1: [22,27,16,2,18,6]   // 22, 27'den küçük olduğu için bir sıralama yapılmasına gerek yok
    Adım 2: [22,16,27,2,18,6]   // 27 ile 16 yer değişti
    Adım 3: [16,22,27,2,18,6]   // 22 ile 16 yer değişti
@@ -25,7 +25,7 @@
 ```
 
 **Soru 2- Big-O gösterimini yazınız.**
-*Yanıt:*
+  *Yanıt:*
 ```Big-O: İşlemler n'den 1'e kadar gideceği için, 1'den n'e kadar olan sayilarin toplami sonucu verecektir. n tane değer için yapılacak işlem n+(n-1)+(n-2)+(n-3)+.........+1 dir.  
              n.(n+1)/2 :Bu işlemlerin toplamı sonucundan (n^2+n)/2 denklemini buluruz.
            = n^2       :Bu denklemi donime eden değer n^2 olduğu için Big-O Notation-> O(n^2)
@@ -35,7 +35,7 @@
 **Average case: Aradığımız sayının ortada olması**
 **Worst case: Aradığımız sayının sonda olması**
 **Best case: Aradığımız sayının dizinin en başında olması.**
-*Yanıt:* 
+  *Yanıt:* 
 ```
 Time Complexity: 18 sayisi-aradığımız sayı dizinin ortasında. Bu yüzden, Average Case uygundur.
 ```
@@ -46,7 +46,7 @@ Time Complexity: 18 sayisi-aradığımız sayı dizinin ortasında. Bu yüzden, 
 [7,3,5,8,2,9,4,15,6] -> dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 ```
 **Soru 1- Yukarı verilen dizinin Insertion sort türüne göre aşamalarını yazınız.**
-*Yanıt:*
+  *Yanıt:*
 ```
 İlk 4 adımı:
     Adım 1: [2,3,5,8,7,9,4,15,6]
