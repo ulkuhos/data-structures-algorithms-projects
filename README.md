@@ -83,3 +83,40 @@ Soru 2 :Big-O gösterimini yazınız.
 ```
 Big-O gosterimi : O(nlogn) olacaktir.
 ```
+
+***
+
+# Proje 3: Binary Search Tree 
+
+## Binary Search Tree
+```
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] -> Binary-Search-Tree
+```
+Soru 1 :Yukardaki dizinin Binary-Search-Tree aşamalarını yazınız.
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+*Yanıt:*
+```
+**Root x = 6 olarak alalım.**
+        6
+      /   \ 
+     5     7
+    /       \
+   1         8
+  / \         \
+ 0   3         9
+    / \      
+   2   4    
+```
+Sırasıyla dizini inclelediğimizde;
+
+```
+Adım 1: "7" > 6 old.için root'un sağında "7" bulunur.
+Adım 2: "5" < 6 old.için root'un solunda "5" bulunur.
+Adım 3: "1" < 5 ve 6 old.için "1" root'un soluna eklenir.
+Adım 4: "8" > 6 old.için "8" root'un sağına eklenir.
+Adım 5: 1< "3" <5<6 old.için "3" root'un soluna ama 1'in sağına eklenir.
+Adım 6: "0" < 1<5<6 old.için "0" root'un soluna eklenir.
+Adım 7: "9" > 6 old.için "9" root'un sağına eklenir.
+Adım 8: 1<3< "4" <5<6 old.için "4" root'un soluna eklenir.
+Adım 9: 1< "2" <3<5<6 old.için "2" root'un soluna eklenir.
+```
