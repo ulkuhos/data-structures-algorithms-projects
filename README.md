@@ -27,7 +27,7 @@
 
 **Soru 2- Big-O gösterimini yazınız.**
 *Yanıt:*
-```Big-O: İşlemler n'den 1'e kadar gideceği için, 1'den n'e kadar olan sayilarin toplami sonucu verecektir. n tane değer için yapılacak işlem n+(n-1)+(n-2)+(n-3)+.........+1 dir.  
+```Big-O: İşlemler n'den 1'e kadar gideceği için, 1'den n'e kadar olan sayilarin toplami sonucu verecektir. n tane değer için yapılacak işlem n+(n-1)+(n-2)+(n-3)+.........+1 dir  
              n.(n+1)/2 :Bu işlemlerin toplamı sonucundan (n^2+n)/2 denklemini buluruz.
            = n^2       :Bu denklemi donime eden değer n^2 olduğu için Big-O Notation-> O(n^2)
 ```
@@ -36,7 +36,7 @@
 **Average case: Aradığımız sayının ortada olması**
 **Worst case: Aradığımız sayının sonda olması**
 **Best case: Aradığımız sayının dizinin en başında olması.**
-   *Yanıt:* 
+*Yanıt:* 
 ```
 Time Complexity: 18 sayisi-aradığımız sayı dizinin ortasında. Bu yüzden, Average Case uygundur.
 ```
@@ -57,4 +57,29 @@ Time Complexity: 18 sayisi-aradığımız sayı dizinin ortasında. Bu yüzden, 
 Devamı:
     Adım 5: [2,3,4,5,6,7,8,15,9]
     Adım 6: [2,3,4,5,6,7,8,9,15]
+```
+
+***
+
+# Proje 2:Merge Sort
+
+## Merge Sort
+```
+[16,21,11,8,12,22] -> Merge Sort
+```
+Soru 1 : Yukarıdaki dizinin Merge Sort türüne göre aşamalarını yazınız.
+*Yanıt:*
+```
+Adım 1:   [16,21,11]           -             [8,12,22]
+Adım 2:  [16,21] - [11]                    [8,12] - [22]
+Adım 3:  [16]-[21]-[11]                    [8]-[12]-[22]
+Adım 4:  [16,21] - [11]                    [8,12] - [22]
+Adım 5:   [11,16,21]                         [8,12,22]
+Adım 6:                 [8,11,12,16,21,22]
+```
+
+Soru 2 :Big-O gösterimini yazınız.
+*Yanıt:*
+```
+Big-O gosterimi : O(nlogn) olacaktir.
 ```
