@@ -7,7 +7,8 @@
 ```
 **Soru 1- Yukarı verilen dizinin Insertion sort türüne göre aşamalarını yazınız.**
    *Yanıt:*
-```Adım 1: [22,27,16,2,18,6]   // 22, 27'den küçük olduğu için sıralama yapıldı
+```
+   Adım 1: [22,27,16,2,18,6]   // 22, 27'den küçük olduğu için sıralama yapıldı
    Adım 2: [22,16,27,2,18,6]   // 27 ile 16 yer değişti
    Adım 3: [16,22,27,2,18,6]   // 22 ile 16 yer değişti
 
